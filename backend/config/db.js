@@ -2,7 +2,7 @@ import  mongoose  from "mongoose"
 
 const connectDb = async () =>{
     try {
-        const conn = await mongoose.connect('mongodb+srv://arefin6:01715250516arefin@cluster0.8pkoh.mongodb.net/AirCnc?retryWrites=true&w=majority',{
+        const conn = await mongoose.connect(process.env.MONGO_URI,{
             useUnifiedTopology:true,
             useNewUrlParser:true,
             useCreateIndex:true
