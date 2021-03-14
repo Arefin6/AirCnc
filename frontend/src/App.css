@@ -37,3 +37,14 @@
   font-weight: bold;
 
 }
+.exp .stars{
+  color: #00a799;
+  font-size: 14px;
+}
+.indicators{
+  background-color: #fff;
+  width: 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  box-shadow: 0 0 2px #222;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Row,Container } from 'react-bootstrap';
 import AdvanceSearch from '../components/AdvanceSearch/Advancesearch';
+import Experience from '../components/Experience/Experience';
 import Header from '../components/Header/Header';
 
 const HomePage = () => {
@@ -13,7 +14,7 @@ const HomePage = () => {
               <AdvanceSearch></AdvanceSearch>
             </Col>
             <Col md={8}>
-              <h2>Home</h2>
+              <Experience></Experience>
             </Col>
           </Row>
           </Container>
