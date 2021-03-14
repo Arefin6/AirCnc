@@ -1,0 +1,24 @@
+.shadow{
+ box-shadow: 0 0 7px 2px #f5f5f5;
+}
+.input-primary{
+    border: none;
+}
+.input-primary:focus{
+    outline: none !important;
+    box-shadow: none;
+    border-bottom:1px solid #ccc;
+}
+.guest{
+    width:40px;
+    border:none;
+    text-align: center;
+}
+.plus-minus{
+    color:#505854;
+     font-size: 30px;
+}
+.plus-minus:focus{
+    box-shadow: 0 0 2px 2px #8ff18b;
+}
+
