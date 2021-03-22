@@ -33,13 +33,13 @@ const AdvanceSearch = () => {
                 </Form.Group>
                 <Row>
                     <Col md={6} className="pr-0">
-                        <Form.Group className="rounded shadow px-3 py-3">
+                        <Form.Group className="rounded shadow px-2 py-3">
                             <Form.Label className="text-secondary ml-1">Arrival</Form.Label>
                             <Form.Control  className="input-primary" type="date" name="arrival"></Form.Control>
                         </Form.Group>
                     </Col>
                     <Col md={6} className="pl-1">
-                        <Form.Group className="rounded shadow px-3 py-3">
+                        <Form.Group className="rounded shadow px-2 py-3">
                             <Form.Label  className="text-secondary ml-1">Departure</Form.Label>
                             <Form.Control  className="input-primary" type="date" name="departure"></Form.Control>
                         </Form.Group>
@@ -58,9 +58,9 @@ const AdvanceSearch = () => {
                             
                             {
                             collapsed ? 
-                            <FontAwesomeIcon  icon={faAngleDown}/>
+                            <FontAwesomeIcon  icon={faAngleDown} className="up-down" />
                             : 
-                            <FontAwesomeIcon  icon={faAngleUp}/>
+                            <FontAwesomeIcon  icon={faAngleUp} className="up-down" />
 
                             }
 

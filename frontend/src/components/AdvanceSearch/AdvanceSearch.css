@@ -1,5 +1,5 @@
 .shadow{
- box-shadow: 0 0 7px 2px #f5f5f5;
+ box-shadow: 0 0 5px 2px #f5f5f5;
 }
 .input-primary{
     border: none;
@@ -20,5 +20,8 @@
 }
 .plus-minus:focus{
     box-shadow: 0 0 2px 2px #8ff18b;
+}
+.up-down{
+    cursor: pointer;
 }
 
